@@ -754,6 +754,50 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 9000,
   },
 
+  // ── Wagner operas ─────────────────────────────────────────────────────────────
+  {
+    id: "wagner-meistersinger",
+    title: "Die Meistersinger von Nürnberg",
+    composer: "Richard Wagner",
+    duration: 16200,
+  },
+  {
+    id: "wagner-gotterdammerung",
+    title: "Götterdämmerung",
+    composer: "Richard Wagner",
+    duration: 15300,
+  },
+  {
+    id: "wagner-tristan",
+    title: "Tristan und Isolde",
+    composer: "Richard Wagner",
+    duration: 14520,
+  },
+  {
+    id: "wagner-parsifal",
+    title: "Parsifal",
+    composer: "Richard Wagner",
+    duration: 14400,
+  },
+  {
+    id: "wagner-walkure",
+    title: "Die Walküre",
+    composer: "Richard Wagner",
+    duration: 14100,
+  },
+  {
+    id: "wagner-siegfried",
+    title: "Siegfried",
+    composer: "Richard Wagner",
+    duration: 14100,
+  },
+  {
+    id: "wagner-lohengrin",
+    title: "Lohengrin",
+    composer: "Richard Wagner",
+    duration: 12000,
+  },
+
   // ── Multi-hour works ──────────────────────────────────────────────────────────
   {
     id: "cage-organ2-aslsp",
