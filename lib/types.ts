@@ -10,9 +10,6 @@ export interface ScorePiece {
   composer: string;
   duration: number;
   durationText: string;
-  type: string;
-  period: string;
-  youtubeSearch: string;
   diffSeconds: number;
   diffPercent: number;
 }

@@ -179,9 +179,6 @@ export async function POST(req: NextRequest) {
     composer: p.composer,
     duration: p.duration,
     durationText: formatDuration(p.duration),
-    type: p.type,
-    period: p.period,
-    youtubeSearch: p.youtubeSearch,
     diffSeconds: p.diffSeconds,
     diffPercent: p.diffPercent,
   }));
