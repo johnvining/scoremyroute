@@ -297,9 +297,21 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 900,
   },
   {
+    id: "bryars-black-river",
+    title: "The Black River",
+    composer: "Gavin Bryars",
+    duration: 900,
+  },
+  {
     id: "tchaikovsky-1812",
     title: "1812 Overture, Op. 49",
     composer: "Pyotr Ilyich Tchaikovsky",
+    duration: 960,
+  },
+  {
+    id: "bryars-after-the-requiem",
+    title: "After the Requiem",
+    composer: "Gavin Bryars",
     duration: 960,
   },
   {
@@ -354,6 +366,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     id: "schoenberg-variations-orchestra",
     title: "Variations for Orchestra, Op. 31",
     composer: "Arnold Schoenberg",
+    duration: 1260,
+  },
+  {
+    id: "bryars-string-quartet-1",
+    title: "String Quartet No. 1",
+    composer: "Gavin Bryars",
     duration: 1260,
   },
   {
@@ -645,22 +663,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 3180,
   },
   {
-    id: "mahler-symphony-1",
-    title: "Symphony No. 1 in D Major 'Titan'",
-    composer: "Gustav Mahler",
-    duration: 3300,
-  },
-  {
     id: "mahler-symphony-4",
     title: "Symphony No. 4 in G Major",
     composer: "Gustav Mahler",
     duration: 3240,
   },
   {
+    id: "mahler-symphony-1",
+    title: "Symphony No. 1 in D Major 'Titan'",
+    composer: "Gustav Mahler",
+    duration: 3300,
+  },
+  {
     id: "schubert-symphony-9",
     title: "Symphony No. 9 in C Major 'The Great', D. 944",
     composer: "Franz Schubert",
     duration: 3600,
+  },
+  {
+    id: "bryars-sinking-of-titanic",
+    title: "The Sinking of the Titanic",
+    composer: "Gavin Bryars",
+    duration: 3660,
   },
   {
     id: "bruckner-symphony-7",
@@ -679,6 +703,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Symphony No. 5 in C-sharp Minor",
     composer: "Gustav Mahler",
     duration: 4200,
+  },
+  {
+    id: "bryars-jesus-blood",
+    title: "Jesus' Blood Never Failed Me Yet",
+    composer: "Gavin Bryars",
+    duration: 4440,
   },
   {
     id: "bach-goldberg-variations",
@@ -735,30 +765,6 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 6900,
   },
   {
-    id: "handel-messiah",
-    title: "Messiah, HWV 56 – Complete Oratorio",
-    composer: "George Frideric Handel",
-    duration: 8400,
-  },
-  {
-    id: "bach-well-tempered-clavier-2",
-    title: "The Well-Tempered Clavier, Book II, BWV 870–893",
-    composer: "Johann Sebastian Bach",
-    duration: 9000,
-  },
-  {
-    id: "bach-christmas-oratorio",
-    title: "Christmas Oratorio, BWV 248 – Complete",
-    composer: "Johann Sebastian Bach",
-    duration: 9300,
-  },
-  {
-    id: "bach-st-matthew-passion",
-    title: "St. Matthew Passion, BWV 244",
-    composer: "Johann Sebastian Bach",
-    duration: 9600,
-  },
-  {
     id: "verdi-nabucco",
     title: "Nabucco",
     composer: "Giuseppe Verdi",
@@ -769,6 +775,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Der fliegende Holländer",
     composer: "Richard Wagner",
     duration: 8100,
+  },
+  {
+    id: "handel-messiah",
+    title: "Messiah, HWV 56 – Complete Oratorio",
+    composer: "George Frideric Handel",
+    duration: 8400,
   },
   {
     id: "verdi-otello",
@@ -789,10 +801,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 8880,
   },
   {
+    id: "bach-well-tempered-clavier-2",
+    title: "The Well-Tempered Clavier, Book II, BWV 870–893",
+    composer: "Johann Sebastian Bach",
+    duration: 9000,
+  },
+  {
     id: "wagner-rheingold",
     title: "Das Rheingold",
     composer: "Richard Wagner",
     duration: 9000,
+  },
+  {
+    id: "bach-christmas-oratorio",
+    title: "Christmas Oratorio, BWV 248 – Complete",
+    composer: "Johann Sebastian Bach",
+    duration: 9300,
+  },
+  {
+    id: "bach-st-matthew-passion",
+    title: "St. Matthew Passion, BWV 244",
+    composer: "Johann Sebastian Bach",
+    duration: 9600,
   },
   {
     id: "mozart-don-giovanni",
