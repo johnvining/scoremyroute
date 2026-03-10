@@ -526,6 +526,56 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 4020,
   },
 
+  // ── Schoenberg ────────────────────────────────────────────────────────────────
+  {
+    id: "schoenberg-string-quartet-d",
+    title: "String Quartet in D Major",
+    composer: "Arnold Schoenberg",
+    duration: 1500,
+  },
+  {
+    id: "schoenberg-verklarte-nacht",
+    title: "Verklärte Nacht (Transfigured Night), Op. 4",
+    composer: "Arnold Schoenberg",
+    duration: 1680,
+  },
+  {
+    id: "schoenberg-five-pieces",
+    title: "Five Pieces for Orchestra, Op. 16",
+    composer: "Arnold Schoenberg",
+    duration: 1200,
+  },
+  {
+    id: "schoenberg-pierrot-lunaire",
+    title: "Pierrot Lunaire, Op. 21",
+    composer: "Arnold Schoenberg",
+    duration: 2280,
+  },
+  {
+    id: "schoenberg-four-orchestral-songs",
+    title: "Four Orchestral Songs, Op. 22",
+    composer: "Arnold Schoenberg",
+    duration: 812,
+  },
+  {
+    id: "schoenberg-variations-orchestra",
+    title: "Variations for Orchestra, Op. 31",
+    composer: "Arnold Schoenberg",
+    duration: 1260,
+  },
+  {
+    id: "schoenberg-piano-concerto",
+    title: "Piano Concerto, Op. 42",
+    composer: "Arnold Schoenberg",
+    duration: 1200,
+  },
+  {
+    id: "schoenberg-erwartung",
+    title: "Erwartung (Expectation), Op. 17",
+    composer: "Arnold Schoenberg",
+    duration: 1740,
+  },
+
   // ── 50–80 minutes ────────────────────────────────────────────────────────────
   {
     id: "beethoven-symphony-3",
