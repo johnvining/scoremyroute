@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f5f2;
+  color: #1a1a18;
+  font-family: var(--font-playfair);
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ede9e3;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5bfb5;
+  border-radius: 3px;
+}
+
+input:focus, select:focus {
+  outline: none;
+}
+
+@keyframes travelAcross {
+  from { transform: translateX(108vw); }
+  to   { transform: translateX(-8vw); }
+}
+
+.animate-travel {
+  animation: travelAcross linear forwards;
+}
