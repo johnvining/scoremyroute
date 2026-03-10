@@ -903,6 +903,35 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     period: "Baroque",
     youtubeSearch: "Bach St Matthew Passion BWV 244",
   },
+
+  // ── Multi-hour works ──────────────────────────────────────────────────────────
+  {
+    id: "cage-organ2-aslsp",
+    title: "Organ2/ASLSP 'As Slow as Possible'",
+    composer: "John Cage",
+    duration: 20165408400,
+    type: "Organ Work",
+    period: "Modern",
+    youtubeSearch: "John Cage ASLSP As Slow As Possible organ",
+  },
+  {
+    id: "wagner-ring-des-nibelungen",
+    title: "Der Ring des Nibelungen",
+    composer: "Richard Wagner",
+    duration: 54000,
+    type: "Opera Cycle",
+    period: "Romantic",
+    youtubeSearch: "Wagner Ring des Nibelungen complete cycle",
+  },
+  {
+    id: "satie-vexations",
+    title: "Vexations",
+    composer: "Erik Satie",
+    duration: 64800,
+    type: "Piano Piece",
+    period: "Modern",
+    youtubeSearch: "Erik Satie Vexations complete",
+  },
 ];
 
 /**
