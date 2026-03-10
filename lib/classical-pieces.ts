@@ -8,18 +8,11 @@ export interface ClassicalPiece {
 // Duration coverage: ~45s to ~180 min
 // ~160 curated pieces with typical performance durations
 export const CLASSICAL_PIECES: ClassicalPiece[] = [
-  // ── Under 2 minutes ──────────────────────────────────────────────────────────
   {
     id: "anderson-typewriter",
     title: "The Typewriter",
     composer: "Leroy Anderson",
     duration: 99,
-  },
-  {
-    id: "bach-minuet-g",
-    title: "Minuet in G Major, BWV Anh. 114",
-    composer: "Christian Petzold",
-    duration: 120,
   },
   {
     id: "chopin-minute-waltz",
@@ -28,30 +21,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 105,
   },
   {
+    id: "bach-minuet-g",
+    title: "Minuet in G Major, BWV Anh. 114",
+    composer: "Christian Petzold",
+    duration: 120,
+  },
+  {
+    id: "chopin-waltz-a-minor",
+    title: "Waltz in A Minor, B. 150",
+    composer: "Frédéric Chopin",
+    duration: 135,
+  },
+  {
+    id: "grieg-hall-mountain-king",
+    title: "In the Hall of the Mountain King (Peer Gynt Suite No. 1), Op. 46",
+    composer: "Edvard Grieg",
+    duration: 145,
+  },
+  {
     id: "bach-prelude-c",
     title: "Prelude in C Major (Well-Tempered Clavier), BWV 846",
     composer: "Johann Sebastian Bach",
     duration: 150,
-  },
-
-  // ── 2–5 minutes ──────────────────────────────────────────────────────────────
-  {
-    id: "bach-jesu-joy",
-    title: "Jesu, Joy of Man's Desiring, BWV 147",
-    composer: "Johann Sebastian Bach",
-    duration: 180,
-  },
-  {
-    id: "bach-sheep-may-safely-graze",
-    title: "Sheep May Safely Graze, BWV 208",
-    composer: "Johann Sebastian Bach",
-    duration: 300,
-  },
-  {
-    id: "schumann-traumerei",
-    title: "Träumerei (Kinderszenen), Op. 15 No. 7",
-    composer: "Robert Schumann",
-    duration: 165,
   },
   {
     id: "saint-saens-swan",
@@ -66,10 +57,10 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 162,
   },
   {
-    id: "grieg-hall-mountain-king",
-    title: "In the Hall of the Mountain King (Peer Gynt Suite No. 1), Op. 46",
-    composer: "Edvard Grieg",
-    duration: 145,
+    id: "schumann-traumerei",
+    title: "Träumerei (Kinderszenen), Op. 15 No. 7",
+    composer: "Robert Schumann",
+    duration: 165,
   },
   {
     id: "beethoven-fur-elise",
@@ -78,10 +69,10 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 175,
   },
   {
-    id: "satie-gymnopedie-1",
-    title: "Gymnopédie No. 1",
-    composer: "Erik Satie",
-    duration: 195,
+    id: "bach-jesu-joy",
+    title: "Jesu, Joy of Man's Desiring, BWV 147",
+    composer: "Johann Sebastian Bach",
+    duration: 180,
   },
   {
     id: "mozart-turkish-march",
@@ -90,34 +81,34 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 180,
   },
   {
+    id: "satie-gymnopedie-1",
+    title: "Gymnopédie No. 1",
+    composer: "Erik Satie",
+    duration: 195,
+  },
+  {
     id: "vivaldi-spring-1",
     title: "Spring – Allegro (The Four Seasons), Op. 8 No. 1, RV 269",
     composer: "Antonio Vivaldi",
     duration: 195,
   },
   {
-    id: "chopin-waltz-a-minor",
-    title: "Waltz in A Minor, B. 150",
-    composer: "Frédéric Chopin",
-    duration: 135,
+    id: "rachmaninoff-prelude-c-sharp",
+    title: "Prelude in C-sharp Minor, Op. 3 No. 2",
+    composer: "Sergei Rachmaninoff",
+    duration: 210,
+  },
+  {
+    id: "bach-air-g-string",
+    title: "Air on the G String (Orchestral Suite No. 3), BWV 1068",
+    composer: "Johann Sebastian Bach",
+    duration: 210,
   },
   {
     id: "handel-hallelujah",
     title: "Hallelujah Chorus (Messiah), HWV 56",
     composer: "George Frideric Handel",
     duration: 215,
-  },
-  {
-    id: "schubert-ave-maria",
-    title: "Ave Maria (Ellens Gesang III), D. 839",
-    composer: "Franz Schubert",
-    duration: 255,
-  },
-  {
-    id: "chopin-fantasie-impromptu",
-    title: "Fantaisie-Impromptu in C-sharp Minor, Op. 66",
-    composer: "Frédéric Chopin",
-    duration: 300,
   },
   {
     id: "chopin-nocturne-op9-2",
@@ -131,8 +122,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     composer: "Franz Liszt",
     duration: 240,
   },
-
-  // ── 5–10 minutes ─────────────────────────────────────────────────────────────
+  {
+    id: "schubert-ave-maria",
+    title: "Ave Maria (Ellens Gesang III), D. 839",
+    composer: "Franz Schubert",
+    duration: 255,
+  },
   {
     id: "satie-gnossienne-1",
     title: "Gnossienne No. 1",
@@ -146,28 +141,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 270,
   },
   {
-    id: "rachmaninoff-prelude-c-sharp",
-    title: "Prelude in C-sharp Minor, Op. 3 No. 2",
-    composer: "Sergei Rachmaninoff",
-    duration: 210,
-  },
-  {
-    id: "debussy-clair-de-lune",
-    title: "Clair de Lune (Suite bergamasque), L. 75",
-    composer: "Claude Debussy",
-    duration: 315,
-  },
-  {
-    id: "bach-air-g-string",
-    title: "Air on the G String (Orchestral Suite No. 3), BWV 1068",
+    id: "bach-sheep-may-safely-graze",
+    title: "Sheep May Safely Graze, BWV 208",
     composer: "Johann Sebastian Bach",
-    duration: 210,
+    duration: 300,
+  },
+  {
+    id: "chopin-fantasie-impromptu",
+    title: "Fantaisie-Impromptu in C-sharp Minor, Op. 66",
+    composer: "Frédéric Chopin",
+    duration: 300,
   },
   {
     id: "pachelbel-canon",
     title: "Canon in D Major",
     composer: "Johann Pachelbel",
     duration: 300,
+  },
+  {
+    id: "debussy-clair-de-lune",
+    title: "Clair de Lune (Suite bergamasque), L. 75",
+    composer: "Claude Debussy",
+    duration: 315,
   },
   {
     id: "chopin-nocturne-op55-1",
@@ -182,16 +177,16 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 330,
   },
   {
+    id: "rachmaninoff-vocalise",
+    title: "Vocalise, Op. 34 No. 14",
+    composer: "Sergei Rachmaninoff",
+    duration: 360,
+  },
+  {
     id: "beethoven-moonlight-3rd",
     title: "Moonlight Sonata – 3rd Movement, Presto agitato, Op. 27 No. 2",
     composer: "Ludwig van Beethoven",
     duration: 390,
-  },
-  {
-    id: "wagner-ride-valkyries",
-    title: "Ride of the Valkyries (Die Walküre, Act III)",
-    composer: "Richard Wagner",
-    duration: 480,
   },
   {
     id: "holst-mars",
@@ -200,16 +195,16 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 450,
   },
   {
-    id: "debussy-prelude-afternoon",
-    title: "Prélude à l'après-midi d'un faune",
-    composer: "Claude Debussy",
-    duration: 660,
-  },
-  {
     id: "holst-jupiter",
     title: "Jupiter, the Bringer of Jollity (The Planets), Op. 32",
     composer: "Gustav Holst",
     duration: 450,
+  },
+  {
+    id: "wagner-ride-valkyries",
+    title: "Ride of the Valkyries (Die Walküre, Act III)",
+    composer: "Richard Wagner",
+    duration: 480,
   },
   {
     id: "bach-toccata-fugue",
@@ -218,16 +213,22 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 540,
   },
   {
-    id: "vivaldi-spring-complete",
-    title: "Spring (The Four Seasons), Op. 8 No. 1, RV 269 – Complete Concerto",
-    composer: "Antonio Vivaldi",
-    duration: 630,
-  },
-  {
     id: "vivaldi-winter-complete",
     title: "Winter (The Four Seasons), Op. 8 No. 4, RV 297 – Complete Concerto",
     composer: "Antonio Vivaldi",
     duration: 600,
+  },
+  {
+    id: "bach-brandeburg-3",
+    title: "Brandenburg Concerto No. 3 in G Major, BWV 1048",
+    composer: "Johann Sebastian Bach",
+    duration: 600,
+  },
+  {
+    id: "vivaldi-spring-complete",
+    title: "Spring (The Four Seasons), Op. 8 No. 1, RV 269 – Complete Concerto",
+    composer: "Antonio Vivaldi",
+    duration: 630,
   },
   {
     id: "vivaldi-summer-complete",
@@ -241,13 +242,41 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     composer: "Antonio Vivaldi",
     duration: 630,
   },
-
-  // ── 10–20 minutes ────────────────────────────────────────────────────────────
+  {
+    id: "debussy-prelude-afternoon",
+    title: "Prélude à l'après-midi d'un faune",
+    composer: "Claude Debussy",
+    duration: 660,
+  },
+  {
+    id: "dvorak-9th-new-world-2nd",
+    title: "Symphony No. 9 'New World' – Largo (2nd Movement)",
+    composer: "Antonín Dvořák",
+    duration: 670,
+  },
   {
     id: "bach-brandenburg-2",
     title: "Brandenburg Concerto No. 2 in F Major, BWV 1047",
     composer: "Johann Sebastian Bach",
     duration: 720,
+  },
+  {
+    id: "schoenberg-four-orchestral-songs",
+    title: "Four Orchestral Songs, Op. 22",
+    composer: "Arnold Schoenberg",
+    duration: 812,
+  },
+  {
+    id: "bach-violin-partita-2-chaconne",
+    title: "Chaconne from Partita No. 2 in D Minor, BWV 1004",
+    composer: "Johann Sebastian Bach",
+    duration: 840,
+  },
+  {
+    id: "beethoven-moonlight-complete",
+    title: "Moonlight Sonata – Complete, Op. 27 No. 2",
+    composer: "Ludwig van Beethoven",
+    duration: 870,
   },
   {
     id: "bach-double-violin-concerto",
@@ -260,18 +289,6 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Brandenburg Concerto No. 4 in G Major, BWV 1049",
     composer: "Johann Sebastian Bach",
     duration: 900,
-  },
-  {
-    id: "bach-brandeburg-3",
-    title: "Brandenburg Concerto No. 3 in G Major, BWV 1048",
-    composer: "Johann Sebastian Bach",
-    duration: 600,
-  },
-  {
-    id: "beethoven-moonlight-complete",
-    title: "Moonlight Sonata – Complete, Op. 27 No. 2",
-    composer: "Ludwig van Beethoven",
-    duration: 870,
   },
   {
     id: "ravel-bolero",
@@ -292,26 +309,6 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1080,
   },
   {
-    id: "grieg-peer-gynt-1",
-    title: "Peer Gynt Suite No. 1, Op. 46",
-    composer: "Edvard Grieg",
-    duration: 1320,
-  },
-  {
-    id: "bach-violin-partita-2-chaconne",
-    title: "Chaconne from Partita No. 2 in D Minor, BWV 1004",
-    composer: "Johann Sebastian Bach",
-    duration: 840,
-  },
-  {
-    id: "mozart-piano-sonata-11",
-    title: "Piano Sonata No. 11 in A Major, K. 331 – Complete",
-    composer: "Wolfgang Amadeus Mozart",
-    duration: 1200,
-  },
-
-  // ── 18–30 minutes ────────────────────────────────────────────────────────────
-  {
     id: "bach-cello-suite-1",
     title: "Cello Suite No. 1 in G Major, BWV 1007",
     composer: "Johann Sebastian Bach",
@@ -324,10 +321,46 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1140,
   },
   {
+    id: "mozart-eine-kleine",
+    title: "Eine kleine Nachtmusik, K. 525",
+    composer: "Wolfgang Amadeus Mozart",
+    duration: 1140,
+  },
+  {
+    id: "mozart-piano-sonata-11",
+    title: "Piano Sonata No. 11 in A Major, K. 331 – Complete",
+    composer: "Wolfgang Amadeus Mozart",
+    duration: 1200,
+  },
+  {
+    id: "schoenberg-five-pieces",
+    title: "Five Pieces for Orchestra, Op. 16",
+    composer: "Arnold Schoenberg",
+    duration: 1200,
+  },
+  {
+    id: "schoenberg-piano-concerto",
+    title: "Piano Concerto, Op. 42",
+    composer: "Arnold Schoenberg",
+    duration: 1200,
+  },
+  {
     id: "bach-brandon-5",
     title: "Brandenburg Concerto No. 5 in D Major, BWV 1050",
     composer: "Johann Sebastian Bach",
     duration: 1260,
+  },
+  {
+    id: "schoenberg-variations-orchestra",
+    title: "Variations for Orchestra, Op. 31",
+    composer: "Arnold Schoenberg",
+    duration: 1260,
+  },
+  {
+    id: "grieg-peer-gynt-1",
+    title: "Peer Gynt Suite No. 1, Op. 46",
+    composer: "Edvard Grieg",
+    duration: 1320,
   },
   {
     id: "bach-brandon-1",
@@ -342,22 +375,10 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1320,
   },
   {
-    id: "bach-wachet-auf",
-    title: "Wachet auf, ruft uns die Stimme, BWV 140",
-    composer: "Johann Sebastian Bach",
-    duration: 1800,
-  },
-  {
-    id: "mozart-eine-kleine",
-    title: "Eine kleine Nachtmusik, K. 525",
-    composer: "Wolfgang Amadeus Mozart",
-    duration: 1140,
-  },
-  {
-    id: "schubert-symphony-8",
-    title: "Symphony No. 8 'Unfinished' in B Minor, D. 759",
-    composer: "Franz Schubert",
-    duration: 1500,
+    id: "tchaikovsky-nutcracker-suite",
+    title: "The Nutcracker Suite, Op. 71a",
+    composer: "Pyotr Ilyich Tchaikovsky",
+    duration: 1350,
   },
   {
     id: "haydn-surprise-symphony",
@@ -366,16 +387,34 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1380,
   },
   {
-    id: "rachmaninoff-vocalise",
-    title: "Vocalise, Op. 34 No. 14",
+    id: "rachmaninoff-rhapsody-paganini",
+    title: "Rhapsody on a Theme of Paganini, Op. 43",
     composer: "Sergei Rachmaninoff",
-    duration: 360,
+    duration: 1380,
   },
   {
-    id: "mendelssohn-violin-concerto",
-    title: "Violin Concerto in E Minor, Op. 64",
-    composer: "Felix Mendelssohn",
-    duration: 1740,
+    id: "debussy-la-mer",
+    title: "La Mer (The Sea), L. 109",
+    composer: "Claude Debussy",
+    duration: 1440,
+  },
+  {
+    id: "schubert-symphony-8",
+    title: "Symphony No. 8 'Unfinished' in B Minor, D. 759",
+    composer: "Franz Schubert",
+    duration: 1500,
+  },
+  {
+    id: "tchaikovsky-swan-lake-suite",
+    title: "Swan Lake Suite, Op. 20a",
+    composer: "Pyotr Ilyich Tchaikovsky",
+    duration: 1500,
+  },
+  {
+    id: "schoenberg-string-quartet-d",
+    title: "String Quartet in D Major",
+    composer: "Arnold Schoenberg",
+    duration: 1500,
   },
   {
     id: "mendelssohn-italian-symphony",
@@ -384,10 +423,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1620,
   },
   {
-    id: "rachmaninoff-rhapsody-paganini",
-    title: "Rhapsody on a Theme of Paganini, Op. 43",
-    composer: "Sergei Rachmaninoff",
-    duration: 1380,
+    id: "schoenberg-verklarte-nacht",
+    title: "Verklärte Nacht (Transfigured Night), Op. 4",
+    composer: "Arnold Schoenberg",
+    duration: 1680,
+  },
+  {
+    id: "mendelssohn-violin-concerto",
+    title: "Violin Concerto in E Minor, Op. 64",
+    composer: "Felix Mendelssohn",
+    duration: 1740,
+  },
+  {
+    id: "schoenberg-erwartung",
+    title: "Erwartung (Expectation), Op. 17",
+    composer: "Arnold Schoenberg",
+    duration: 1740,
+  },
+  {
+    id: "bach-wachet-auf",
+    title: "Wachet auf, ruft uns die Stimme, BWV 140",
+    composer: "Johann Sebastian Bach",
+    duration: 1800,
   },
   {
     id: "mozart-symphony-40",
@@ -396,29 +453,21 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1800,
   },
   {
-    id: "dvorak-9th-new-world-2nd",
-    title: "Symphony No. 9 'New World' – Largo (2nd Movement)",
-    composer: "Antonín Dvořák",
-    duration: 670,
-  },
-
-  // ── 30–45 minutes ────────────────────────────────────────────────────────────
-  {
-    id: "beethoven-symphony-5",
-    title: "Symphony No. 5 in C Minor, Op. 67",
-    composer: "Ludwig van Beethoven",
-    duration: 2040,
-  },
-  {
-    id: "beethoven-symphony-7",
-    title: "Symphony No. 7 in A Major, Op. 92",
-    composer: "Ludwig van Beethoven",
-    duration: 2280,
-  },
-  {
     id: "haydn-london-symphony",
     title: "Symphony No. 104 'London' in D Major, Hob.I:104",
     composer: "Joseph Haydn",
+    duration: 1800,
+  },
+  {
+    id: "mussorgsky-pictures-exhibition",
+    title: "Pictures at an Exhibition (orch. Ravel)",
+    composer: "Modest Mussorgsky / Maurice Ravel",
+    duration: 1800,
+  },
+  {
+    id: "elgar-cello-concerto",
+    title: "Cello Concerto in E Minor, Op. 85",
+    composer: "Edward Elgar",
     duration: 1800,
   },
   {
@@ -434,6 +483,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1980,
   },
   {
+    id: "beethoven-symphony-5",
+    title: "Symphony No. 5 in C Minor, Op. 67",
+    composer: "Ludwig van Beethoven",
+    duration: 2040,
+  },
+  {
     id: "rachmaninoff-piano-concerto-2",
     title: "Piano Concerto No. 2 in C Minor, Op. 18",
     composer: "Sergei Rachmaninoff",
@@ -446,55 +501,23 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 2100,
   },
   {
-    id: "tchaikovsky-nutcracker-suite",
-    title: "The Nutcracker Suite, Op. 71a",
-    composer: "Pyotr Ilyich Tchaikovsky",
-    duration: 1350,
-  },
-  {
-    id: "mussorgsky-pictures-exhibition",
-    title: "Pictures at an Exhibition (orch. Ravel)",
-    composer: "Modest Mussorgsky / Maurice Ravel",
-    duration: 1800,
-  },
-  {
     id: "stravinsky-rite-of-spring",
     title: "The Rite of Spring",
     composer: "Igor Stravinsky",
     duration: 2100,
   },
   {
-    id: "vivaldi-four-seasons-complete",
-    title: "The Four Seasons, Op. 8 – Complete",
-    composer: "Antonio Vivaldi",
-    duration: 2520,
-  },
-  {
-    id: "beethoven-violin-concerto",
-    title: "Violin Concerto in D Major, Op. 61",
+    id: "beethoven-symphony-7",
+    title: "Symphony No. 7 in A Major, Op. 92",
     composer: "Ludwig van Beethoven",
-    duration: 2460,
+    duration: 2280,
   },
   {
-    id: "dvorak-cello-concerto",
-    title: "Cello Concerto in B Minor, Op. 104",
-    composer: "Antonín Dvořák",
-    duration: 2400,
+    id: "schoenberg-pierrot-lunaire",
+    title: "Pierrot Lunaire, Op. 21",
+    composer: "Arnold Schoenberg",
+    duration: 2280,
   },
-  {
-    id: "rimsky-scheherazade",
-    title: "Scheherazade, Op. 35",
-    composer: "Nikolai Rimsky-Korsakov",
-    duration: 2520,
-  },
-  {
-    id: "tchaikovsky-swan-lake-suite",
-    title: "Swan Lake Suite, Op. 20a",
-    composer: "Pyotr Ilyich Tchaikovsky",
-    duration: 1500,
-  },
-
-  // ── 45–60 minutes ────────────────────────────────────────────────────────────
   {
     id: "beethoven-symphony-6",
     title: "Symphony No. 6 'Pastoral' in F Major, Op. 68",
@@ -502,16 +525,10 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 2340,
   },
   {
-    id: "brahms-symphony-1",
-    title: "Symphony No. 1 in C Minor, Op. 68",
-    composer: "Johannes Brahms",
-    duration: 2700,
-  },
-  {
-    id: "brahms-symphony-2",
-    title: "Symphony No. 2 in D Major, Op. 73",
-    composer: "Johannes Brahms",
-    duration: 2520,
+    id: "dvorak-cello-concerto",
+    title: "Cello Concerto in B Minor, Op. 104",
+    composer: "Antonín Dvořák",
+    duration: 2400,
   },
   {
     id: "brahms-symphony-4",
@@ -532,10 +549,58 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 2400,
   },
   {
+    id: "beethoven-violin-concerto",
+    title: "Violin Concerto in D Major, Op. 61",
+    composer: "Ludwig van Beethoven",
+    duration: 2460,
+  },
+  {
+    id: "vivaldi-four-seasons-complete",
+    title: "The Four Seasons, Op. 8 – Complete",
+    composer: "Antonio Vivaldi",
+    duration: 2520,
+  },
+  {
+    id: "rimsky-scheherazade",
+    title: "Scheherazade, Op. 35",
+    composer: "Nikolai Rimsky-Korsakov",
+    duration: 2520,
+  },
+  {
+    id: "brahms-symphony-2",
+    title: "Symphony No. 2 in D Major, Op. 73",
+    composer: "Johannes Brahms",
+    duration: 2520,
+  },
+  {
     id: "tchaikovsky-symphony-4",
     title: "Symphony No. 4 in F Minor, Op. 36",
     composer: "Pyotr Ilyich Tchaikovsky",
     duration: 2520,
+  },
+  {
+    id: "dvorak-symphony-9",
+    title: "Symphony No. 9 'From the New World' in E Minor, Op. 95",
+    composer: "Antonín Dvořák",
+    duration: 2520,
+  },
+  {
+    id: "sibelius-symphony-2",
+    title: "Symphony No. 2 in D Major, Op. 43",
+    composer: "Jean Sibelius",
+    duration: 2640,
+  },
+  {
+    id: "brahms-symphony-1",
+    title: "Symphony No. 1 in C Minor, Op. 68",
+    composer: "Johannes Brahms",
+    duration: 2700,
+  },
+  {
+    id: "stravinsky-firebird",
+    title: "The Firebird – Complete Ballet",
+    composer: "Igor Stravinsky",
+    duration: 2700,
   },
   {
     id: "tchaikovsky-symphony-5",
@@ -550,99 +615,17 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 2760,
   },
   {
-    id: "dvorak-symphony-9",
-    title: "Symphony No. 9 'From the New World' in E Minor, Op. 95",
-    composer: "Antonín Dvořák",
-    duration: 2520,
-  },
-  {
-    id: "elgar-cello-concerto",
-    title: "Cello Concerto in E Minor, Op. 85",
-    composer: "Edward Elgar",
-    duration: 1800,
-  },
-  {
-    id: "sibelius-symphony-2",
-    title: "Symphony No. 2 in D Major, Op. 43",
-    composer: "Jean Sibelius",
-    duration: 2640,
-  },
-  {
-    id: "debussy-la-mer",
-    title: "La Mer (The Sea), L. 109",
-    composer: "Claude Debussy",
-    duration: 1440,
-  },
-  {
-    id: "stravinsky-firebird",
-    title: "The Firebird – Complete Ballet",
-    composer: "Igor Stravinsky",
-    duration: 2700,
-  },
-  {
     id: "holst-planets-complete",
     title: "The Planets, Op. 32 – Complete Suite",
     composer: "Gustav Holst",
     duration: 2880,
   },
   {
-    id: "bruckner-symphony-7",
-    title: "Symphony No. 7 in E Major",
-    composer: "Anton Bruckner",
-    duration: 4020,
+    id: "brahms-piano-concerto-2",
+    title: "Piano Concerto No. 2 in B-flat Major, Op. 83",
+    composer: "Johannes Brahms",
+    duration: 2880,
   },
-
-  // ── Schoenberg ────────────────────────────────────────────────────────────────
-  {
-    id: "schoenberg-string-quartet-d",
-    title: "String Quartet in D Major",
-    composer: "Arnold Schoenberg",
-    duration: 1500,
-  },
-  {
-    id: "schoenberg-verklarte-nacht",
-    title: "Verklärte Nacht (Transfigured Night), Op. 4",
-    composer: "Arnold Schoenberg",
-    duration: 1680,
-  },
-  {
-    id: "schoenberg-five-pieces",
-    title: "Five Pieces for Orchestra, Op. 16",
-    composer: "Arnold Schoenberg",
-    duration: 1200,
-  },
-  {
-    id: "schoenberg-pierrot-lunaire",
-    title: "Pierrot Lunaire, Op. 21",
-    composer: "Arnold Schoenberg",
-    duration: 2280,
-  },
-  {
-    id: "schoenberg-four-orchestral-songs",
-    title: "Four Orchestral Songs, Op. 22",
-    composer: "Arnold Schoenberg",
-    duration: 812,
-  },
-  {
-    id: "schoenberg-variations-orchestra",
-    title: "Variations for Orchestra, Op. 31",
-    composer: "Arnold Schoenberg",
-    duration: 1260,
-  },
-  {
-    id: "schoenberg-piano-concerto",
-    title: "Piano Concerto, Op. 42",
-    composer: "Arnold Schoenberg",
-    duration: 1200,
-  },
-  {
-    id: "schoenberg-erwartung",
-    title: "Erwartung (Expectation), Op. 17",
-    composer: "Arnold Schoenberg",
-    duration: 1740,
-  },
-
-  // ── 50–80 minutes ────────────────────────────────────────────────────────────
   {
     id: "beethoven-symphony-3",
     title: "Symphony No. 3 'Eroica' in E-flat Major, Op. 55",
@@ -656,16 +639,16 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 3000,
   },
   {
-    id: "bach-goldberg-variations",
-    title: "Goldberg Variations, BWV 988",
-    composer: "Johann Sebastian Bach",
-    duration: 4500,
+    id: "bruckner-symphony-7",
+    title: "Symphony No. 7 in E Major",
+    composer: "Anton Bruckner",
+    duration: 4020,
   },
   {
-    id: "verdi-requiem",
-    title: "Requiem",
-    composer: "Giuseppe Verdi",
-    duration: 5400,
+    id: "beethoven-symphony-9",
+    title: "Symphony No. 9 'Choral' in D Minor, Op. 125",
+    composer: "Ludwig van Beethoven",
+    duration: 4020,
   },
   {
     id: "mahler-symphony-5",
@@ -674,24 +657,10 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 4200,
   },
   {
-    id: "mahler-symphony-9",
-    title: "Symphony No. 9 in D Major",
-    composer: "Gustav Mahler",
-    duration: 4800,
-  },
-  {
-    id: "brahms-piano-concerto-2",
-    title: "Piano Concerto No. 2 in B-flat Major, Op. 83",
-    composer: "Johannes Brahms",
-    duration: 2880,
-  },
-
-  // ── 80–120 minutes ────────────────────────────────────────────────────────────
-  {
-    id: "beethoven-symphony-9",
-    title: "Symphony No. 9 'Choral' in D Minor, Op. 125",
-    composer: "Ludwig van Beethoven",
-    duration: 4020,
+    id: "bach-goldberg-variations",
+    title: "Goldberg Variations, BWV 988",
+    composer: "Johann Sebastian Bach",
+    duration: 4500,
   },
   {
     id: "mahler-symphony-6",
@@ -700,10 +669,10 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 4740,
   },
   {
-    id: "mahler-symphony-3",
-    title: "Symphony No. 3 in D Minor",
+    id: "mahler-symphony-9",
+    title: "Symphony No. 9 in D Major",
     composer: "Gustav Mahler",
-    duration: 6000,
+    duration: 4800,
   },
   {
     id: "mahler-symphony-2",
@@ -712,22 +681,16 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 5100,
   },
   {
-    id: "bach-well-tempered-clavier-1",
-    title: "The Well-Tempered Clavier, Book I, BWV 846–869",
-    composer: "Johann Sebastian Bach",
-    duration: 6900,
+    id: "verdi-requiem",
+    title: "Requiem",
+    composer: "Giuseppe Verdi",
+    duration: 5400,
   },
   {
-    id: "handel-messiah",
-    title: "Messiah, HWV 56 – Complete Oratorio",
-    composer: "George Frideric Handel",
-    duration: 8400,
-  },
-  {
-    id: "bach-st-matthew-passion",
-    title: "St. Matthew Passion, BWV 244",
-    composer: "Johann Sebastian Bach",
-    duration: 9600,
+    id: "mahler-symphony-3",
+    title: "Symphony No. 3 in D Minor",
+    composer: "Gustav Mahler",
+    duration: 6000,
   },
   {
     id: "bach-mass-b-minor",
@@ -742,10 +705,16 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 6600,
   },
   {
-    id: "bach-christmas-oratorio",
-    title: "Christmas Oratorio, BWV 248 – Complete",
+    id: "bach-well-tempered-clavier-1",
+    title: "The Well-Tempered Clavier, Book I, BWV 846–869",
     composer: "Johann Sebastian Bach",
-    duration: 9300,
+    duration: 6900,
+  },
+  {
+    id: "handel-messiah",
+    title: "Messiah, HWV 56 – Complete Oratorio",
+    composer: "George Frideric Handel",
+    duration: 8400,
   },
   {
     id: "bach-well-tempered-clavier-2",
@@ -753,31 +722,23 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     composer: "Johann Sebastian Bach",
     duration: 9000,
   },
-
-  // ── Wagner operas ─────────────────────────────────────────────────────────────
   {
-    id: "wagner-meistersinger",
-    title: "Die Meistersinger von Nürnberg",
-    composer: "Richard Wagner",
-    duration: 16200,
+    id: "bach-christmas-oratorio",
+    title: "Christmas Oratorio, BWV 248 – Complete",
+    composer: "Johann Sebastian Bach",
+    duration: 9300,
   },
   {
-    id: "wagner-gotterdammerung",
-    title: "Götterdämmerung",
-    composer: "Richard Wagner",
-    duration: 15300,
+    id: "bach-st-matthew-passion",
+    title: "St. Matthew Passion, BWV 244",
+    composer: "Johann Sebastian Bach",
+    duration: 9600,
   },
   {
-    id: "wagner-tristan",
-    title: "Tristan und Isolde",
+    id: "wagner-lohengrin",
+    title: "Lohengrin",
     composer: "Richard Wagner",
-    duration: 14520,
-  },
-  {
-    id: "wagner-parsifal",
-    title: "Parsifal",
-    composer: "Richard Wagner",
-    duration: 14400,
+    duration: 12000,
   },
   {
     id: "wagner-walkure",
@@ -792,18 +753,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 14100,
   },
   {
-    id: "wagner-lohengrin",
-    title: "Lohengrin",
+    id: "wagner-parsifal",
+    title: "Parsifal",
     composer: "Richard Wagner",
-    duration: 12000,
+    duration: 14400,
   },
-
-  // ── Multi-hour works ──────────────────────────────────────────────────────────
   {
-    id: "cage-organ2-aslsp",
-    title: "Organ2/ASLSP 'As Slow as Possible'",
-    composer: "John Cage",
-    duration: 20165408400,
+    id: "wagner-tristan",
+    title: "Tristan und Isolde",
+    composer: "Richard Wagner",
+    duration: 14520,
+  },
+  {
+    id: "wagner-gotterdammerung",
+    title: "Götterdämmerung",
+    composer: "Richard Wagner",
+    duration: 15300,
+  },
+  {
+    id: "wagner-meistersinger",
+    title: "Die Meistersinger von Nürnberg",
+    composer: "Richard Wagner",
+    duration: 16200,
   },
   {
     id: "wagner-ring-des-nibelungen",
@@ -816,6 +787,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Vexations",
     composer: "Erik Satie",
     duration: 64800,
+  },
+  {
+    id: "cage-organ2-aslsp",
+    title: "Organ2/ASLSP 'As Slow as Possible'",
+    composer: "John Cage",
+    duration: 20165408400,
   },
 ];
 
