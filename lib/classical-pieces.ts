@@ -759,6 +759,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 9600,
   },
   {
+    id: "verdi-nabucco",
+    title: "Nabucco",
+    composer: "Giuseppe Verdi",
+    duration: 6960,
+  },
+  {
     id: "wagner-hollaender",
     title: "Der fliegende Holländer",
     composer: "Richard Wagner",
