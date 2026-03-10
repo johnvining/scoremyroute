@@ -542,6 +542,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     composer: "Ludwig van Beethoven",
     duration: 2340,
   },
+
   {
     id: "dvorak-cello-concerto",
     title: "Cello Concerto in B Minor, Op. 104",
@@ -771,6 +772,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 6960,
   },
   {
+    id: "glass-akhnaten",
+    title: "Akhnaten",
+    composer: "Philip Glass",
+    duration: 7740,
+  },
+  {
     id: "wagner-hollaender",
     title: "Der fliegende Holländer",
     composer: "Richard Wagner",
@@ -798,6 +805,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     id: "verdi-aida",
     title: "Aida",
     composer: "Giuseppe Verdi",
+    duration: 8880,
+  },
+  {
+    id: "glass-satyagraha",
+    title: "Satyagraha",
+    composer: "Philip Glass",
     duration: 8880,
   },
   {
@@ -849,6 +862,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 12000,
   },
   {
+    id: "glass-music-twelve-parts",
+    title: "Music in Twelve Parts",
+    composer: "Philip Glass",
+    duration: 12240,
+  },
+  {
     id: "wagner-walkure",
     title: "Die Walküre",
     composer: "Richard Wagner",
@@ -883,6 +902,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Die Meistersinger von Nürnberg",
     composer: "Richard Wagner",
     duration: 16200,
+  },
+  {
+    id: "glass-einstein-beach",
+    title: "Einstein on the Beach",
+    composer: "Philip Glass",
+    duration: 18000,
   },
   {
     id: "wagner-ring-des-nibelungen",
