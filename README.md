@@ -1,8 +1,8 @@
-Buß und Reu, Buß und Reu
-Knirscht das Sündenherz entzwei.
-Das die Tropfen meiner Zähren
-Angenehme Spezerei,
-Treuer Jesu, dir gebären.
+Buß und Reu, Buß und Reu  
+Knirscht das Sündenherz entzwei.  
+Das die Tropfen meiner Zähren  
+Angenehme Spezerei,  
+Treuer Jesu, dir gebären.  
 
 
 - - - - 
