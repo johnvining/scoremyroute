@@ -639,6 +639,30 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 3000,
   },
   {
+    id: "berlioz-symphonie-fantastique",
+    title: "Symphonie fantastique, Op. 14",
+    composer: "Hector Berlioz",
+    duration: 3180,
+  },
+  {
+    id: "mahler-symphony-1",
+    title: "Symphony No. 1 in D Major 'Titan'",
+    composer: "Gustav Mahler",
+    duration: 3300,
+  },
+  {
+    id: "mahler-symphony-4",
+    title: "Symphony No. 4 in G Major",
+    composer: "Gustav Mahler",
+    duration: 3240,
+  },
+  {
+    id: "schubert-symphony-9",
+    title: "Symphony No. 9 in C Major 'The Great', D. 944",
+    composer: "Franz Schubert",
+    duration: 3600,
+  },
+  {
     id: "bruckner-symphony-7",
     title: "Symphony No. 7 in E Major",
     composer: "Anton Bruckner",
