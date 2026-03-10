@@ -18,18 +18,18 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   {
     id: "bach-minuet-g",
     title: "Minuet in G Major, BWV Anh. 114",
-    composer: "Johann Sebastian Bach",
+    composer: "Christian Petzold",
     duration: 120,
   },
   {
     id: "chopin-minute-waltz",
-    title: "Waltz in D-flat Major 'Minute Waltz' Op. 64 No. 1",
+    title: "Waltz in D-flat Major 'Minute Waltz', Op. 64 No. 1",
     composer: "Frédéric Chopin",
     duration: 105,
   },
   {
     id: "bach-prelude-c",
-    title: "Prelude in C Major (Well-Tempered Clavier, BWV 846)",
+    title: "Prelude in C Major (Well-Tempered Clavier), BWV 846",
     composer: "Johann Sebastian Bach",
     duration: 150,
   },
@@ -37,7 +37,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   // ── 2–5 minutes ──────────────────────────────────────────────────────────────
   {
     id: "bach-jesu-joy",
-    title: "Jesu, Joy of Man's Desiring (Cantata, BWV 147)",
+    title: "Jesu, Joy of Man's Desiring, BWV 147",
     composer: "Johann Sebastian Bach",
     duration: 180,
   },
@@ -49,13 +49,13 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "schumann-traumerei",
-    title: "Träumerei (Kinderszenen, Op. 15 No. 7)",
+    title: "Träumerei (Kinderszenen), Op. 15 No. 7",
     composer: "Robert Schumann",
     duration: 165,
   },
   {
     id: "saint-saens-swan",
-    title: "The Swan (Le Cygne) from Carnival of the Animals",
+    title: "The Swan (Le Cygne), Carnival of the Animals",
     composer: "Camille Saint-Saëns",
     duration: 160,
   },
@@ -67,13 +67,13 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "grieg-hall-mountain-king",
-    title: "In the Hall of the Mountain King (Peer Gynt Suite No. 1)",
+    title: "In the Hall of the Mountain King (Peer Gynt Suite No. 1), Op. 46",
     composer: "Edvard Grieg",
     duration: 145,
   },
   {
     id: "beethoven-fur-elise",
-    title: "Für Elise (Bagatelle in A Minor, WoO 59)",
+    title: "Für Elise, WoO 59",
     composer: "Ludwig van Beethoven",
     duration: 175,
   },
@@ -85,13 +85,13 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "mozart-turkish-march",
-    title: "Turkish March (Rondo alla Turca, K. 331)",
+    title: "Turkish March (Rondo alla Turca), K. 331",
     composer: "Wolfgang Amadeus Mozart",
     duration: 180,
   },
   {
     id: "vivaldi-spring-1",
-    title: "Spring – Allegro (The Four Seasons, 1st Movement)",
+    title: "Spring – Allegro (The Four Seasons), Op. 8 No. 1, RV 269",
     composer: "Antonio Vivaldi",
     duration: 195,
   },
@@ -103,13 +103,13 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "handel-hallelujah",
-    title: "Hallelujah Chorus (Messiah, HWV 56)",
+    title: "Hallelujah Chorus (Messiah), HWV 56",
     composer: "George Frideric Handel",
     duration: 215,
   },
   {
     id: "schubert-ave-maria",
-    title: "Ave Maria (Ellens Gesang III, D. 839)",
+    title: "Ave Maria (Ellens Gesang III), D. 839",
     composer: "Franz Schubert",
     duration: 255,
   },
@@ -153,13 +153,13 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "debussy-clair-de-lune",
-    title: "Clair de Lune (Suite bergamasque, L. 75)",
+    title: "Clair de Lune (Suite bergamasque), L. 75",
     composer: "Claude Debussy",
     duration: 315,
   },
   {
     id: "bach-air-g-string",
-    title: "Air on the G String (Orchestral Suite No. 3, BWV 1068)",
+    title: "Air on the G String (Orchestral Suite No. 3), BWV 1068",
     composer: "Johann Sebastian Bach",
     duration: 210,
   },
@@ -177,13 +177,13 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "beethoven-moonlight-1st",
-    title: "Moonlight Sonata – 1st Movement (Op. 27 No. 2)",
+    title: "Moonlight Sonata – 1st Movement, Op. 27 No. 2",
     composer: "Ludwig van Beethoven",
     duration: 330,
   },
   {
     id: "beethoven-moonlight-3rd",
-    title: "Moonlight Sonata – 3rd Movement, Presto agitato",
+    title: "Moonlight Sonata – 3rd Movement, Presto agitato, Op. 27 No. 2",
     composer: "Ludwig van Beethoven",
     duration: 390,
   },
@@ -195,7 +195,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "holst-mars",
-    title: "Mars, the Bringer of War (The Planets, Op. 32)",
+    title: "Mars, the Bringer of War (The Planets), Op. 32",
     composer: "Gustav Holst",
     duration: 450,
   },
@@ -207,7 +207,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "holst-jupiter",
-    title: "Jupiter, the Bringer of Jollity (The Planets, Op. 32)",
+    title: "Jupiter, the Bringer of Jollity (The Planets), Op. 32",
     composer: "Gustav Holst",
     duration: 450,
   },
@@ -219,25 +219,25 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "vivaldi-spring-complete",
-    title: "Spring (The Four Seasons) – Complete Concerto",
+    title: "Spring (The Four Seasons), Op. 8 No. 1, RV 269 – Complete Concerto",
     composer: "Antonio Vivaldi",
     duration: 630,
   },
   {
     id: "vivaldi-winter-complete",
-    title: "Winter (The Four Seasons) – Complete Concerto",
+    title: "Winter (The Four Seasons), Op. 8 No. 4, RV 297 – Complete Concerto",
     composer: "Antonio Vivaldi",
     duration: 600,
   },
   {
     id: "vivaldi-summer-complete",
-    title: "Summer (The Four Seasons) – Complete Concerto",
+    title: "Summer (The Four Seasons), Op. 8 No. 2, RV 315 – Complete Concerto",
     composer: "Antonio Vivaldi",
     duration: 630,
   },
   {
     id: "vivaldi-autumn-complete",
-    title: "Autumn (The Four Seasons) – Complete Concerto",
+    title: "Autumn (The Four Seasons), Op. 8 No. 3, RV 293 – Complete Concerto",
     composer: "Antonio Vivaldi",
     duration: 630,
   },
@@ -269,7 +269,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "beethoven-moonlight-complete",
-    title: "Moonlight Sonata – Complete (Op. 27 No. 2)",
+    title: "Moonlight Sonata – Complete, Op. 27 No. 2",
     composer: "Ludwig van Beethoven",
     duration: 870,
   },
@@ -465,7 +465,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "vivaldi-four-seasons-complete",
-    title: "The Four Seasons – Complete",
+    title: "The Four Seasons, Op. 8 – Complete",
     composer: "Antonio Vivaldi",
     duration: 2520,
   },
