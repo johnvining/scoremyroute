@@ -10,6 +10,12 @@ export interface ClassicalPiece {
 export const CLASSICAL_PIECES: ClassicalPiece[] = [
   // ── Under 2 minutes ──────────────────────────────────────────────────────────
   {
+    id: "anderson-typewriter",
+    title: "The Typewriter",
+    composer: "Leroy Anderson",
+    duration: 99,
+  },
+  {
     id: "bach-minuet-g",
     title: "Minuet in G Major (BWV Anh. 114)",
     composer: "Johann Sebastian Bach",
