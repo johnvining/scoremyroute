@@ -17,7 +17,7 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
   {
     id: "bach-minuet-g",
-    title: "Minuet in G Major (BWV Anh. 114)",
+    title: "Minuet in G Major, BWV Anh. 114",
     composer: "Johann Sebastian Bach",
     duration: 120,
   },
@@ -35,6 +35,18 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
 
   // ── 2–5 minutes ──────────────────────────────────────────────────────────────
+  {
+    id: "bach-jesu-joy",
+    title: "Jesu, Joy of Man's Desiring (Cantata, BWV 147)",
+    composer: "Johann Sebastian Bach",
+    duration: 180,
+  },
+  {
+    id: "bach-sheep-may-safely-graze",
+    title: "Sheep May Safely Graze, BWV 208",
+    composer: "Johann Sebastian Bach",
+    duration: 300,
+  },
   {
     id: "schumann-traumerei",
     title: "Träumerei (Kinderszenen, Op. 15 No. 7)",
@@ -232,6 +244,24 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
 
   // ── 10–20 minutes ────────────────────────────────────────────────────────────
   {
+    id: "bach-brandenburg-2",
+    title: "Brandenburg Concerto No. 2 in F Major, BWV 1047",
+    composer: "Johann Sebastian Bach",
+    duration: 720,
+  },
+  {
+    id: "bach-double-violin-concerto",
+    title: "Concerto for Two Violins in D Minor, BWV 1043",
+    composer: "Johann Sebastian Bach",
+    duration: 900,
+  },
+  {
+    id: "bach-brandenburg-4",
+    title: "Brandenburg Concerto No. 4 in G Major, BWV 1049",
+    composer: "Johann Sebastian Bach",
+    duration: 900,
+  },
+  {
     id: "bach-brandeburg-3",
     title: "Brandenburg Concerto No. 3 in G Major, BWV 1048",
     composer: "Johann Sebastian Bach",
@@ -281,6 +311,42 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
   },
 
   // ── 18–30 minutes ────────────────────────────────────────────────────────────
+  {
+    id: "bach-cello-suite-1",
+    title: "Cello Suite No. 1 in G Major, BWV 1007",
+    composer: "Johann Sebastian Bach",
+    duration: 1140,
+  },
+  {
+    id: "bach-brandon-6",
+    title: "Brandenburg Concerto No. 6 in B-flat Major, BWV 1051",
+    composer: "Johann Sebastian Bach",
+    duration: 1140,
+  },
+  {
+    id: "bach-brandon-5",
+    title: "Brandenburg Concerto No. 5 in D Major, BWV 1050",
+    composer: "Johann Sebastian Bach",
+    duration: 1260,
+  },
+  {
+    id: "bach-brandon-1",
+    title: "Brandenburg Concerto No. 1 in F Major, BWV 1046",
+    composer: "Johann Sebastian Bach",
+    duration: 1320,
+  },
+  {
+    id: "bach-harpsichord-concerto-d",
+    title: "Harpsichord Concerto in D Minor, BWV 1052",
+    composer: "Johann Sebastian Bach",
+    duration: 1320,
+  },
+  {
+    id: "bach-wachet-auf",
+    title: "Wachet auf, ruft uns die Stimme, BWV 140",
+    composer: "Johann Sebastian Bach",
+    duration: 1800,
+  },
   {
     id: "mozart-eine-kleine",
     title: "Eine kleine Nachtmusik, K. 525",
@@ -662,6 +728,30 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "St. Matthew Passion, BWV 244",
     composer: "Johann Sebastian Bach",
     duration: 9600,
+  },
+  {
+    id: "bach-mass-b-minor",
+    title: "Mass in B Minor, BWV 232",
+    composer: "Johann Sebastian Bach",
+    duration: 6360,
+  },
+  {
+    id: "bach-st-john-passion",
+    title: "St. John Passion, BWV 245",
+    composer: "Johann Sebastian Bach",
+    duration: 6600,
+  },
+  {
+    id: "bach-christmas-oratorio",
+    title: "Christmas Oratorio, BWV 248 – Complete",
+    composer: "Johann Sebastian Bach",
+    duration: 9300,
+  },
+  {
+    id: "bach-well-tempered-clavier-2",
+    title: "The Well-Tempered Clavier, Book II, BWV 870–893",
+    composer: "Johann Sebastian Bach",
+    duration: 9000,
   },
 
   // ── Multi-hour works ──────────────────────────────────────────────────────────
