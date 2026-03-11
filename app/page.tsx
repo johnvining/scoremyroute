@@ -214,6 +214,15 @@ export default function Home() {
         >
           John Vining
         </a>
+        {" · "}
+        <a
+          href="https://github.com/johnvining/scoremyroute"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-stone-400 hover:text-stone-600 transition-colors"
+        >
+          GitHub
+        </a>
       </p>
     </footer>
     </>
