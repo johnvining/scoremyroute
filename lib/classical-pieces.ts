@@ -261,6 +261,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 720,
   },
   {
+    id: "stockhausen-gesang-junglinge",
+    title: "Gesang der Jünglinge",
+    composer: "Karlheinz Stockhausen",
+    duration: 780,
+  },
+  {
     id: "schoenberg-four-orchestral-songs",
     title: "Four Orchestral Songs, Op. 22",
     composer: "Arnold Schoenberg",
@@ -435,6 +441,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 1500,
   },
   {
+    id: "stockhausen-gruppen",
+    title: "Gruppen für drei Orchester",
+    composer: "Karlheinz Stockhausen",
+    duration: 1500,
+  },
+  {
     id: "mendelssohn-italian-symphony",
     title: "Symphony No. 4 'Italian' in A Major, Op. 90",
     composer: "Felix Mendelssohn",
@@ -507,6 +519,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 2040,
   },
   {
+    id: "stravinsky-petrushka",
+    title: "Petrushka – Complete Ballet",
+    composer: "Igor Stravinsky",
+    duration: 2040,
+  },
+  {
     id: "rachmaninoff-piano-concerto-2",
     title: "Piano Concerto No. 2 in C Minor, Op. 18",
     composer: "Sergei Rachmaninoff",
@@ -529,6 +547,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Symphony No. 7 in A Major, Op. 92",
     composer: "Ludwig van Beethoven",
     duration: 2280,
+  },
+  {
+    id: "stockhausen-kontakte",
+    title: "Kontakte",
+    composer: "Karlheinz Stockhausen",
+    duration: 2070,
   },
   {
     id: "schoenberg-pierrot-lunaire",
@@ -634,6 +658,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 2760,
   },
   {
+    id: "messiaen-quartet-end-of-time",
+    title: "Quatuor pour la fin du Temps (Quartet for the End of Time)",
+    composer: "Olivier Messiaen",
+    duration: 3000,
+  },
+  {
     id: "holst-planets-complete",
     title: "The Planets, Op. 32 – Complete Suite",
     composer: "Gustav Holst",
@@ -730,10 +760,34 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 4800,
   },
   {
+    id: "messiaen-turangalila",
+    title: "Turangalîla-Symphonie",
+    composer: "Olivier Messiaen",
+    duration: 4800,
+  },
+  {
     id: "mahler-symphony-2",
     title: "Symphony No. 2 'Resurrection' in C Minor",
     composer: "Gustav Mahler",
     duration: 5100,
+  },
+  {
+    id: "gluck-iphigenie-tauride",
+    title: "Iphigénie en Tauride",
+    composer: "Christoph Willibald Gluck",
+    duration: 6300,
+  },
+  {
+    id: "monteverdi-orfeo",
+    title: "L'Orfeo",
+    composer: "Claudio Monteverdi",
+    duration: 6000,
+  },
+  {
+    id: "haydn-the-creation",
+    title: "The Creation, Hob. XXI:2",
+    composer: "Joseph Haydn",
+    duration: 6300,
   },
   {
     id: "verdi-requiem",
@@ -742,10 +796,28 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 5400,
   },
   {
+    id: "gluck-orfeo-euridice",
+    title: "Orfeo ed Euridice",
+    composer: "Christoph Willibald Gluck",
+    duration: 5520,
+  },
+  {
+    id: "monteverdi-vespro",
+    title: "Vespro della Beata Vergine",
+    composer: "Claudio Monteverdi",
+    duration: 5700,
+  },
+  {
     id: "mahler-symphony-3",
     title: "Symphony No. 3 in D Minor",
     composer: "Gustav Mahler",
     duration: 6000,
+  },
+  {
+    id: "gluck-alceste",
+    title: "Alceste",
+    composer: "Christoph Willibald Gluck",
+    duration: 6300,
   },
   {
     id: "bach-mass-b-minor",
@@ -754,10 +826,22 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 6360,
   },
   {
+    id: "puccini-tosca",
+    title: "Tosca",
+    composer: "Giacomo Puccini",
+    duration: 6600,
+  },
+  {
     id: "bach-st-john-passion",
     title: "St. John Passion, BWV 245",
     composer: "Johann Sebastian Bach",
     duration: 6600,
+  },
+  {
+    id: "puccini-la-boheme",
+    title: "La Bohème",
+    composer: "Giacomo Puccini",
+    duration: 6900,
   },
   {
     id: "bach-well-tempered-clavier-1",
@@ -770,6 +854,24 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     title: "Nabucco",
     composer: "Giuseppe Verdi",
     duration: 6960,
+  },
+  {
+    id: "puccini-madama-butterfly",
+    title: "Madama Butterfly",
+    composer: "Giacomo Puccini",
+    duration: 7500,
+  },
+  {
+    id: "monteverdi-poppea",
+    title: "L'incoronazione di Poppea",
+    composer: "Claudio Monteverdi",
+    duration: 7800,
+  },
+  {
+    id: "messiaen-vingt-regards",
+    title: "Vingt Regards sur l'Enfant-Jésus",
+    composer: "Olivier Messiaen",
+    duration: 7800,
   },
   {
     id: "glass-akhnaten",
