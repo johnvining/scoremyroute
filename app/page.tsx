@@ -9,7 +9,7 @@ const TRAVEL_MODES: { value: TravelMode; label: string; emoji: string; duration:
   { value: "transit",   label: "Transit",  emoji: "🚌", duration: "2.5s", word: "Bus"  },
   { value: "driving",   label: "Driving",  emoji: "🚗", duration: "1.5s", word: "Auto" },
   { value: "walking",   label: "Walking",  emoji: "🚶", duration: "6s",   word: "Fuß"  },
-  { value: "bicycling", label: "Cycling",  emoji: "🚲", duration: "3.5s", word: "Rad"  },
+  { value: "bicycling", label: "Cycling",  emoji: "🚴‍♂️", duration: "3.5s", word: "Rad"  },
 ];
 
 function PieceCard({ piece, rank }: { piece: ScorePiece; rank: number }) {
