@@ -111,6 +111,12 @@ export const CLASSICAL_PIECES: ClassicalPiece[] = [
     duration: 215,
   },
   {
+    id: "adams-short-ride",
+    title: "Short Ride in a Fast Machine",
+    composer: "John Adams",
+    duration: 240,
+  },
+  {
     id: "chopin-nocturne-op9-2",
     title: "Nocturne in E-flat Major, Op. 9 No. 2",
     composer: "Frédéric Chopin",
